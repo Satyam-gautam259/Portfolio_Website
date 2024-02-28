@@ -1,5 +1,4 @@
 // Script File
-
 // js for title change on opening new tab
 let doctitle = document.title;
 window.addEventListener("blur", () => {
