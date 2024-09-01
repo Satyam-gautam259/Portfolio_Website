@@ -109,19 +109,19 @@ ul{
 }
 
 
-ul li{
+.container_text ul li{
   position: relative;
   height: 40px;
 
   animation: to-top 9s steps(3) infinite;
 }
 
-ul li span{
+.container_text ul li span{
 color : #0920f0;
 text-shadow: #99999b 1px 0 10px;
 }
 
-ul li::after{
+.container_text ul li::after{
   content: '';
   position: absolute;
   left: 0;
