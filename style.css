@@ -792,18 +792,23 @@ button.contact-btn {
   height: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-  background-image: url(/images/Portfolio\ Website.png);
   background-size: cover;
   background-position: center;
 }
-.card__img_2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
+#card1{
+  background-image: url(/images/Portfolio\ Website.png);
+}
+#card2 {
   background-image: url(/images/Netflix_clone.png);
-  background-size: cover;
-  background-position: center;
+}
+#card3 {
+  background-image: url(/images/Tour_travel.png);
+}
+#card4 {
+  background-image: url(/images/Hotel_booking.png);
+}
+#card5 {
+  background-image: url(/images/car_rental.png);
 }
 .card__descr-wrapper {
   padding: 15px;
