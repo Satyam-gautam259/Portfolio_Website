@@ -88,6 +88,69 @@ body {
   margin: 0px auto;
 }
 /*   *** Home Section Styling Starts ***   */
+
+/* **text animation start** */
+
+.container_text{
+  display: flex;
+  align-items: flex-start;
+  gap:.5rem;
+
+}
+
+.text, span{
+  font-size:25px;
+}
+
+ul{
+  height: 30px;
+  list-style : none;
+  overflow: hidden;
+}
+
+
+ul li{
+  position: relative;
+  height: 40px;
+
+  animation: to-top 9s steps(3) infinite;
+}
+
+ul li span{
+color : #0920f0;
+text-shadow: #99999b 1px 0 10px;
+}
+
+ul li::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  border-left: 4px solid rgb(0, 0, 0);
+
+  animation: to-right 3s steps(22) infinite;
+}
+
+
+@keyframes to-right{
+  40%, 60%{
+      left: calc(100% + 50px);
+  }
+  95%{
+      left: 0;
+  }
+}
+
+@keyframes to-top {
+  100%{
+      transform: translateY(-300% );
+      /* OR */
+      /* transform: translateY(calc(-100px * 3)); */ 
+}
+}
+
 .home {
   position: relative;
   width: 100%;
