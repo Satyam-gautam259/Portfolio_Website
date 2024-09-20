@@ -101,7 +101,9 @@ body {
 .text, span{
   font-size:25px;
 }
-
+ul span{
+  font-size:22px;
+}
 ul{
   height: 30px;
   list-style : none;
@@ -492,6 +494,7 @@ button.contact-btn {
 .about-personal-info div span {
   color: var(--text-clr);
   letter-spacing: 1px;
+  font-size:18px;
 }
 
 .download-button {
