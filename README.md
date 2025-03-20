@@ -20,13 +20,13 @@ This is my personal portfolio website. It is a single-page website that showcase
 
 To deploy your website to GitHub Pages, follow these steps:
 
-1. Create a new repository on GitHub with the name `[your-username].github.io`.
+1. Create a new repository on GitHub with the name ` satyam gautam.github.io`.
 2. Change the repository's visibility to `Public`.
 3. In the repository settings, select the `GitHub Pages` tab.
 4. Under `Source`, select the `Branch` radio button and select the `main` branch.
 5. Click `Save`.
 
-Once you have completed these steps, your website will be deployed to `[your-username].github.io`.
+Once you have completed these steps, your website will be deployed to `satyam gautam.github.io`.
 
 **Contributions:**
 
@@ -34,7 +34,7 @@ If you would like to contribute to this website, please feel free to open a pull
 
 **Contact:**
 
-If you have any questions or feedback, please feel free to contact me at satyamkul2002@gmail.com.
+If you have any questions or feedback, please feel free to contact me at satyamgautam2592001@gmail.com.
 
 ## Additional information
 
